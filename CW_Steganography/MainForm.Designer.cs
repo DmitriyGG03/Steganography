@@ -123,7 +123,7 @@
             this.bt_delCoding.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.bt_delCoding.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_delCoding.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bt_delCoding.Location = new System.Drawing.Point(500, 436);
+            this.bt_delCoding.Location = new System.Drawing.Point(500, 434);
             this.bt_delCoding.Margin = new System.Windows.Forms.Padding(4);
             this.bt_delCoding.Name = "bt_delCoding";
             this.bt_delCoding.Size = new System.Drawing.Size(254, 75);
@@ -149,7 +149,7 @@
             this.MinimumSize = new System.Drawing.Size(832, 591);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Стеганографія";
+            this.Text = "Coding text in pictures";
             ((System.ComponentModel.ISupportInitialize)(this.pb_activePhoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
