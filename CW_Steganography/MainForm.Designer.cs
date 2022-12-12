@@ -59,7 +59,7 @@
             this.tb_codingText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.tb_codingText.Size = new System.Drawing.Size(355, 148);
             this.tb_codingText.TabIndex = 1;
-            this.tb_codingText.TextChanged += new System.EventHandler(this.textToCode_TextChanged);
+            this.tb_codingText.TextChanged += new System.EventHandler(this.tb_codingText_TextChanged);
             // 
             // bt_choosePict
             // 
@@ -80,11 +80,11 @@
             // 
             // bt_encoding
             // 
-            this.bt_encoding.BackColor = System.Drawing.Color.Salmon;
+            this.bt_encoding.BackColor = System.Drawing.Color.Khaki;
             this.bt_encoding.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_encoding.Enabled = false;
-            this.bt_encoding.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OrangeRed;
-            this.bt_encoding.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
+            this.bt_encoding.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gold;
+            this.bt_encoding.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkKhaki;
             this.bt_encoding.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_encoding.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bt_encoding.Location = new System.Drawing.Point(500, 312);
@@ -123,10 +123,10 @@
             this.bt_delCoding.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.bt_delCoding.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_delCoding.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bt_delCoding.Location = new System.Drawing.Point(500, 434);
+            this.bt_delCoding.Location = new System.Drawing.Point(500, 425);
             this.bt_delCoding.Margin = new System.Windows.Forms.Padding(4);
             this.bt_delCoding.Name = "bt_delCoding";
-            this.bt_delCoding.Size = new System.Drawing.Size(254, 75);
+            this.bt_delCoding.Size = new System.Drawing.Size(254, 105);
             this.bt_delCoding.TabIndex = 5;
             this.bt_delCoding.Text = "Видалити кодування із зображення";
             this.bt_delCoding.UseVisualStyleBackColor = false;
