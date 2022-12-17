@@ -34,7 +34,6 @@
             this.bt_choosePict = new System.Windows.Forms.Button();
             this.bt_encoding = new System.Windows.Forms.Button();
             this.bt_coding = new System.Windows.Forms.Button();
-            this.bt_delCoding = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb_activePhoto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,7 +86,7 @@
             this.bt_encoding.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkKhaki;
             this.bt_encoding.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_encoding.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bt_encoding.Location = new System.Drawing.Point(500, 312);
+            this.bt_encoding.Location = new System.Drawing.Point(500, 295);
             this.bt_encoding.Margin = new System.Windows.Forms.Padding(4);
             this.bt_encoding.Name = "bt_encoding";
             this.bt_encoding.Size = new System.Drawing.Size(254, 75);
@@ -114,30 +113,12 @@
             this.bt_coding.UseVisualStyleBackColor = false;
             this.bt_coding.Click += new System.EventHandler(this.bt_coding_Click);
             // 
-            // bt_delCoding
-            // 
-            this.bt_delCoding.BackColor = System.Drawing.Color.Salmon;
-            this.bt_delCoding.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_delCoding.Enabled = false;
-            this.bt_delCoding.FlatAppearance.MouseDownBackColor = System.Drawing.Color.OrangeRed;
-            this.bt_delCoding.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
-            this.bt_delCoding.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_delCoding.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bt_delCoding.Location = new System.Drawing.Point(500, 425);
-            this.bt_delCoding.Margin = new System.Windows.Forms.Padding(4);
-            this.bt_delCoding.Name = "bt_delCoding";
-            this.bt_delCoding.Size = new System.Drawing.Size(254, 105);
-            this.bt_delCoding.TabIndex = 5;
-            this.bt_delCoding.Text = "Видалити кодування із зображення";
-            this.bt_delCoding.UseVisualStyleBackColor = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
             this.ClientSize = new System.Drawing.Size(816, 552);
-            this.Controls.Add(this.bt_delCoding);
             this.Controls.Add(this.bt_coding);
             this.Controls.Add(this.bt_encoding);
             this.Controls.Add(this.bt_choosePict);
@@ -163,7 +144,6 @@
         private System.Windows.Forms.Button bt_choosePict;
         private System.Windows.Forms.Button bt_encoding;
         private System.Windows.Forms.Button bt_coding;
-        private System.Windows.Forms.Button bt_delCoding;
     }
 }
 
